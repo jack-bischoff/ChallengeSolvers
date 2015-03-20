@@ -1,0 +1,5 @@
+numsList = input().split()
+minValue = min(map(int, numsList))
+maxValue = max(map(int, numsList))
+print(maxValue, end = " ")
+print(minValue)
