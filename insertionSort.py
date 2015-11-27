@@ -2,7 +2,7 @@
 def insertionSort(ar):
 	lenAr = len(ar)-1
 	unSorted = ar[lenAr]
-	for index in range(1,len(ar)):
+	for index in range(1, lenAr+1):
 		activeCell = lenAr - index
 		activeValue = ar[activeCell]
 		if unSorted < activeValue:
